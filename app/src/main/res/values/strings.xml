@@ -1,3 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HardwareTester</string>
+
+    <string name="app_name">Hardware Tester</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Hardware Testing</string>
+    <string name="title_activity_batteryindicator">Battery Indicator</string>
+    <string name="title_activity_systeminfo">System Info</string>
+    <string name="title_activity_touch_sensor">Touch Sensor</string>
+    <string name="title_activity_proximity_sensor">Proximity Sensor</string>
+    <string name="title_activity_lightsensor">Light Sensor</string>
+    <string name="luxes">DAC %1$f luxes</string>
+    <string name="near">You are Near: %1$s</string>
+    <string name="far">You are Far: %1$s</string>
+    <string name="board">Name of underlying board %1$s</string>
+    <string name="bootloader">System bootloader version number %1$s</string>
+    <string name="brand">Brand of the software is %1$s</string>
+    <string name="design">Name of the industrial design %1$s</string>
+    <string name="kernel">Name of the kernel %1$s</string>
+    <string name="manufacturer">Manufacturer of the product %1$s</string>
+    <string name="serial">Hardware serial number %1$s</string>
+    <string name="build_no">Build no: %1$s</string>
+    <string name="sdk">Android SDK: %1$d%2$s (%3$s)</string>
+    <string name="battery_level">Battery Level: %1$d%%</string>
+
 </resources>
