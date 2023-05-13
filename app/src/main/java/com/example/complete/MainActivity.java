@@ -48,6 +48,32 @@ public class MainActivity extends Activity implements OnItemClickListener
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int pos,long id) {
 		// TODO Auto-generated method stub
+		switch(pos){
+			case 0:
+				intent = new Intent(getApplicationContext(), SystemInfo.class);
+				startActivity(intent);
+				break;
+
+			/*case 1:
+				intent = new Intent(getApplicationContext(), ProximitySensor.class);
+				startActivity(intent);
+				break;
+
+			case 2:
+				intent = new Intent(getApplicationContext(), TouchSensor.class);
+				startActivity(intent);
+				break;
+
+			case 3:
+				intent = new Intent(getApplicationContext(), LightSensor.class);
+				startActivity(intent);
+				break;
+
+			case 4:
+				intent = new Intent(getApplicationContext(), BatteryIndicator.class);
+				startActivity(intent);
+				break;*/
+		}
 
 
 	}
