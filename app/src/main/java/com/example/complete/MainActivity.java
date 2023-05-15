@@ -54,7 +54,7 @@ public class MainActivity extends Activity implements OnItemClickListener
 				startActivity(intent);
 				break;
 
-			/*case 1:
+			case 1:
 				intent = new Intent(getApplicationContext(), ProximitySensor.class);
 				startActivity(intent);
 				break;
@@ -63,7 +63,6 @@ public class MainActivity extends Activity implements OnItemClickListener
 				intent = new Intent(getApplicationContext(), TouchSensor.class);
 				startActivity(intent);
 				break;
-				*/
 			case 3:
 				intent = new Intent(getApplicationContext(), LightSensor.class);
 				startActivity(intent);

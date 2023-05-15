@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class BatteryIndicator extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.lightsensor, menu);
+        getMenuInflater().inflate(R.menu.batteryindicator, menu);
         return true;
     }
 

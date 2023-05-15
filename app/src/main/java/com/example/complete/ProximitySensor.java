@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class ProximitySensor extends Activity implements SensorEventListener{
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.lightsensor, menu);
+		getMenuInflater().inflate(R.menu.proximity_sensor, menu);
 		return true;
 	}
 

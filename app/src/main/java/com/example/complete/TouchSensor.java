@@ -8,7 +8,7 @@ import android.view.MenuItem;
 public class TouchSensor extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.lightsensor, menu);
+		getMenuInflater().inflate(R.menu.touch_sensor, menu);
 		return true;
 	}
 
