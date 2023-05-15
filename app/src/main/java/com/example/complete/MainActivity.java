@@ -63,16 +63,15 @@ public class MainActivity extends Activity implements OnItemClickListener
 				intent = new Intent(getApplicationContext(), TouchSensor.class);
 				startActivity(intent);
 				break;
-
+				*/
 			case 3:
 				intent = new Intent(getApplicationContext(), LightSensor.class);
 				startActivity(intent);
 				break;
-
 			case 4:
 				intent = new Intent(getApplicationContext(), BatteryIndicator.class);
 				startActivity(intent);
-				break;*/
+				break;
 		}
 
 
